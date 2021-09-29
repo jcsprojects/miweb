@@ -172,49 +172,6 @@ footer {
   color: #fff;
 }
 
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.input {
-  background: transparent;
-  border: 0;
-  color: #fff;
-  outline: none;
-  border: 1px solid #fff;
-  padding: 20px 10px;
-}
-
-.input::placeholder {
-  color: #fff;
-  font-family: "raleway", "sans-serif";
-}
-
-input[type="text"],
-input[type="email"] {
-  display: inline-block;
-  width: 49%;
-  margin-bottom: 30px;
-}
-
-.form textarea {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-input[type="submit"] {
-  width: 120px;
-  text-align: center;
-  padding: 14px 0;
-}
-
-input[type="submit"]:hover {
-  cursor: pointer;
-  color: darkblue;
-  background: #fff;
-}
 
 @media screen and (max-width: 800px) {
   .textos-hero h1 {
@@ -289,7 +246,7 @@ input[type="submit"]:hover {
 }
 
 .icons a {
-  font-size: 40px;
+  font-size: 35px;
   margin: 10px;
   color: #fff;
 }
@@ -374,7 +331,7 @@ input[type="submit"]:hover {
   position: relative;
   margin: 0 10px 10px 0;
   text-decoration: none;
-  -webkit-transition: color 0.2s;
+  /* -webkit-transition: color 0.2s; */
   cursor: default;
   
 }
